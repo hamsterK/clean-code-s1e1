@@ -38,10 +38,10 @@ body {
   padding: 0px;
 }
 .task-list > :first-child, h3 {
-  list-style:none;
+  list-style: none;
 }
 input,button{
-  outline:none;
+  outline: none;
 }
 button {
   background: none;
@@ -133,16 +133,16 @@ input#new-task {
 
 /* Edit Task */
 .task-list > * > input[type=text] {
-  display:none
+  display: none
 }
 
 /* TODO: think of another selector, p3.4 */
 ul li.edit-mode input[type=text] {
-  display:inline-block;
-  width:224px
+  display: inline-block;
+  width: 224px
 }
 
 /* TODO: think of another selector, p3.4 */
 ul li.edit-mode label {
-  display:none;
+  display: none;
 }
