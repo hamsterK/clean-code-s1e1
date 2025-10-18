@@ -16,10 +16,9 @@ body {
 .wrapper .more-info {
   font-family: fantasy, cursive;
 }
-
 @media (max-width:768px) {
   .wrapper { text-align: center;
-}
+  }
 }
 .all-todos {
   display: block;
