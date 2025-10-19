@@ -41,7 +41,7 @@ body {
 .task-list > :first-child, h3 {
   list-style: none;
 }
-input,button{
+input, button{
   outline: none;
 }
 button {
