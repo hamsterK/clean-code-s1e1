@@ -137,13 +137,11 @@ input#new-task {
   display: none;
 }
 
-/* TODO: think of another selector, p3.4 */
-ul li.edit-mode input[type=text] {
+.edit-mode input[type=text] {
   display: inline-block;
   width: 224px;
 }
 
-/* TODO: think of another selector, p3.4 */
-ul li.edit-mode label {
+.edit-mode label {
   display: none;
 }
