@@ -137,11 +137,11 @@ input#new-task {
   display: none;
 }
 
-.edit-mode input[type=text] {
+.task-list__edit-mode input[type=text] {
   display: inline-block;
   width: 224px;
 }
 
-.edit-mode label {
+.task-list__edit-mode label {
   display: none;
 }
