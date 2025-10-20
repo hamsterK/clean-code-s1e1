@@ -22,18 +22,18 @@
         <h3>Todo</h3>
         <ul id="incompleted" class="task-list">
           <li>
-            <input type="checkbox">
-            <label class="task">Pay Bills</label>
-            <input type="text" class="task">
+            <input id="disabled-task" name="disabled-task" type="checkbox">
+            <label for="disabled-task" class="task">Pay Bills</label>
+            <input name="disabled-task" type="text" class="task">
             <button class="edit">Edit</button>
             <button class="delete">
               <img src="./remove.svg" alt="Delete button">
             </button>
           </li>
           <li class="task-list__edit-mode">
-            <input type="checkbox">
-            <label class="task">Go Shopping</label>
-            <input type="text" value="Go Shopping" class="task">
+            <input id="active-task" name="active-task" type="checkbox">
+            <label for="active-task" class="task">Go Shopping</label>
+            <input name="active-task" type="text" value="Go Shopping" class="task">
             <button class="edit">Save</button>
             <button class="delete">
               <img src="./remove.svg" alt="Delete button">
@@ -45,9 +45,9 @@
         <h3>Completed</h3>
         <ul id="completed" class="task-list">
           <li>
-            <input type="checkbox" id="completed-task" checked>
+            <input name="completed-task" type="checkbox" id="completed-task" checked>
             <label for="completed-task" class="task">See the Doctor</label>
-            <input type="text" class="task" name="task-text">
+            <input name="completed-task" type="text" class="task" name="task-text">
             <button class="edit">Edit</button>
             <button class="delete">
               <img src="./remove.svg" alt="Delete button">
